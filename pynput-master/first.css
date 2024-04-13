@@ -1,0 +1,23 @@
+
+   
+body{
+    font-weight: 800;
+   background-color: black;
+     color: rgb(9, 134, 9);
+     font-family: Consolas, Courier, monospace;
+     font-size: large; 
+ }
+  
+#bg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+#img{
+   height: 200px;
+   width: 220px;
+   object-fit: cover;
+
+}

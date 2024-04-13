@@ -1,0 +1,11 @@
+
+[lint]
+flake8
+mypy
+docutils-stubs
+
+[standalone]
+Sphinx>=5
+
+[test]
+pytest

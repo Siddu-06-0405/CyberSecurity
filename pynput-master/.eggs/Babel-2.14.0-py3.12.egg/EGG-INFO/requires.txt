@@ -1,0 +1,5 @@
+
+[dev]
+pytest>=6.0
+pytest-cov
+freezegun~=1.0

@@ -1,0 +1,29 @@
+Requirements:
+1. setuptools module in python
+run the command "python -m pip install setuptools" in commmand prompt
+2. also run "python -m pip install pep517"
+
+macOs/Linux:
+1.pip install setuptools
+2.pip install pep517
+
+In the terminal:
+3. py .\setup.py
+4. py
+>>>import pynput
+(if no error occurs then everything is successfuly installed)
+
+ONCE YOU HAVE SUCCESSFULLY RUN THE LOGGER.PYW FILE THERE IS NO NEED TO DO THE ABOVE STEPS AGAIN
+
+Steps to run the keylogger in your machine:
+
+0. Edit the log_dir = '<directory>' replace the <directory> with the directory of pynput-master folder
+
+1.use IDLE or any IDE to execute(run) "logger.pyw" file or run it using command "py .\logger.pyw"
+
+2. you can see that python file is running and the keys you pressed on your keyboard will be visible in "key_log.html" file.
+
+3. to stop the process in windows command prompt use 'Get-Process' command
+and find the pid of python and give prompt (Stop-Process <pid> -Force)
+
+4. for mac os use commands ps , kill <pid>
