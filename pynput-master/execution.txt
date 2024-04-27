@@ -1,15 +1,21 @@
-Requirements:
+Requirements:(you can run these comands in vscode terminal or cmd prompt or powershell or zsh.)
+                                    
+                                    (I recommend vs code.)
+
+///Make sure that you have set up the environment variables of python312(or any version)
+///In the terminal
 1. setuptools module in python
 run the command "python -m pip install setuptools" in commmand prompt
 2. also run "python -m pip install pep517"
+3. pip install pynput
 
 macOs/Linux:
 1.pip install setuptools
 2.pip install pep517
-
+3.pip install pynput
 In the terminal:
-3. py .\setup.py
-4. py
+3. python .\setup.py
+4. python
 >>>import pynput
 (if no error occurs then everything is successfuly installed)
 
@@ -17,13 +23,13 @@ ONCE YOU HAVE SUCCESSFULLY RUN THE LOGGER.PYW FILE THERE IS NO NEED TO DO THE AB
 
 Steps to run the keylogger in your machine:
 
-0. Edit the log_dir = '<directory>' replace the <directory> with the directory of pynput-master folder
+0. Edit the log_dir = '<directory>' replace the <directory> with the directory of folder which contains pynput-master folder
 
-1.use IDLE or any IDE to execute(run) "logger.pyw" file or run it using command "py .\logger.pyw"
+1.use IDLE or any IDE to execute(run) "logger.pyw" file or run it using command "python .\logger.pyw"
 
 2. you can see that python file is running and the keys you pressed on your keyboard will be visible in "key_log.html" file.
 
-3. to stop the process in windows command prompt use 'Get-Process' command
+3. to stop the process in terminal use 'Get-Process python' command
 and find the pid of python and give prompt (Stop-Process <pid> -Force)
 
 4. for mac os use commands ps , kill <pid>
